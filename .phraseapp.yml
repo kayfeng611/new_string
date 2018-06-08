@@ -1,0 +1,14 @@
+phraseapp:
+  access_token: 7941884e1c7c1723f744dafee47eac795e07691b785c1118bb5d8426f2bfab5f
+  project_id: 76cdb185d7c8e0d6f6da3be92f6d5a1c
+  push:
+    sources:
+    - file: ./demo_en-US.properties
+      params:
+        file_format: properties
+        locale_id: en-US
+  pull:
+    targets:
+    - file: ./demo_<locale_name>.properties
+      params:
+        file_format: properties
